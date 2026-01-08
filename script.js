@@ -1,3 +1,3 @@
 function sayHello() {
-  alert("Hello! Thanks for clicking the button 😊");
+  alert("i am making a percentage calculator and this is not done yet");
 }
