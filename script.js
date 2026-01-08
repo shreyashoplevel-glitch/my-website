@@ -7,3 +7,11 @@ function calculate() {
   document.getElementById("result").innerText =
     "Result: " + result;
 }
+function calculate1(){
+	let amount1 =  document.getElementById("amount1").value;
+	let number =  document.getElementById("other number").value;
+	let  result1 = (number/amount1) * 100;
+	document.getElementById("result").innerText = "Result: " + result1 + "%";
+    	
+	
+}
