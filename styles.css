@@ -1,18 +1,76 @@
-body{
-    background-color:rgb(1, 108, 92);
-}
-h1{
-    color:pink
-}
-h3{
-    color:rgb(121, 220, 193)
-}
-h2{
-    color:rgb(138, 131, 255)
-}
-button{
-    background-color:rgb(153, 255, 135)
-}
-input{
+* {
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+  }
+  
+  body {
+    background: linear-gradient(135deg, #016c5c, #4facfe);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 30px;
+    width: 350px;
+    border-radius: 16px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+    backdrop-filter: blur(10px);
+    color: white;
+  }
+  
+  h1 {
+    text-align: center;
+    color: pink;
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    color: rgb(121, 220, 193);
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 5px;
     background-color: rgb(176, 133, 255);
-}
+    color: black;
+  }
+  
+  button {
+    width: 100%;
+    margin-top: 15px;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(153, 255, 135);
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background-color: rgb(120, 230, 120);
+    transform: scale(1.05);
+  }
+  
+  h2 {
+    text-align: center;
+    color: rgb(138, 131, 255);
+    margin-top: 15px;
+  }
+  
+  hr {
+    margin: 25px 0;
+    border: 1px solid rgba(255,255,255,0.2);
+  }
+  
